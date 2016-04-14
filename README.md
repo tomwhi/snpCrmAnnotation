@@ -14,7 +14,7 @@ One would then need to use the tool "runPeakCalling.py" to generate called peaks
 The schema of the MySQL database (without the large amount of data included) is included as a database dump, in "PWM_db_schema.sql".
 
 # Dependencies
-The resource requires a hacked version of FIMO from the MEME package, in which an additional command line option "--allow-overlap" has been added. A git repository containing this hack is available at XXX.
+The resource requires a hacked version of FIMO from the MEME package, in which an additional command line option "--allow-overlap" has been added. A git repository containing this hack is available at https://github.com/tomwhi/meme_WithFimoHack
 
 # Usage
 "snpCrmAnnotation.py" is used to run annotation of a set of SNPs of interest
